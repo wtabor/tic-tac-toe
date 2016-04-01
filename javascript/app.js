@@ -10,9 +10,15 @@ $(document).ready(function() {
       }
 
       $('#square1').click(function() {
-      if ($('#dropUnit').is(':enabled')) {
-        if (turn % )
-        $(#square1).textContent('X');
+      if ($('#square1').is(':enabled')) {
+        if (turn % 0 == 0) {
+          //Turn player X
+        $('#square1').textContent('X');
+        $('#square1').attr(':disabled');
+        var board[0] = true;
+        turn++;
+        }
+
       }
 
               if (player1 == true);
