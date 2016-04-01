@@ -1,0 +1,74 @@
+/*  ID'S */
+
+#square1 {
+
+}
+
+#square2 {
+  background-color: blue;
+}
+
+#square3 {
+  background-color: green;
+}
+
+#square4 {
+  background-color: red;
+}
+
+#square5 {
+  background-color: blue;
+}
+
+#square6 {
+  background-color: green;
+}
+
+#square7 {
+  background-color: red;
+}
+
+#square8 {
+  background-color: blue;
+}
+
+#square9 {
+  background-color: green;
+}
+
+
+/*  CLASSES */
+
+/*.container {
+  position: center fixed;
+  background-color: gray;
+  object-position: center;
+  height: 500px;
+  width: 500px;
+}
+*/
+.board-container {
+  border-width: 100px;
+  border-color: yellow;
+  object-position: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.square {
+  background: black;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  flex: 1 0 auto;
+  height: 100px;
+}
+
+
+/*  ELEMENTS */
+
+h1 {
+  text-align: center;
+}
