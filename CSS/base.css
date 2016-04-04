@@ -1,80 +1,64 @@
 /*  ID'S */
-/*
-#square1 {
 
+#board-container {
+  width: 31.2em;
+  height: 31.2em;
+  margin: 0 auto;
 }
 
-#square2 {
-  background-color: blue;
+#xwins {
+  font-size: 2em;
 }
 
-#square3 {
-  background-color: green;
+#owins {
+  font-size: 2em;
 }
-
-#square4 {
-  background-color: red;
-}
-
-#square5 {
-  background-color: blue;
-}
-
-#square6 {
-  background-color: green;
-}
-
-#square7 {
-  background-color: red;
-}
-
-#square8 {
-  background-color: blue;
-}
-
-#square9 {
-  background-color: green;
-}
-*/
 
 
 /*  CLASSES */
 
-/*.container {
-  position: center fixed;
-  background-color: gray;
-  object-position: center;
-  height: 500px;
-  width: 500px;
-}
-*/
-.board-container {
-  border-width: 1.5em;
-  border-color: yellow;
-  object-position: center;
-  display: flex;
-  justify-content: space-around;
-}
-
 .square {
-  background: black;
-  margin: 5px;
-  color: white;
-  font-weight: bold;
-  font-size: 1.5em;
+  border: black solid 1px;
   text-align: center;
-  flex: 1 0 auto;
-  height: 10em;
   width: 10em;
+  height: 10em;
+  float: left;
 }
 
+.row {
+  display: flex;
+}
 
+.score {
+  font-size: 2em;
+  text-align: center;
+  display: flex;
+}
+
+.x-image {
+  background: url(../images/ximage.png) 50% 50% no-repeat;
+  background-size: 100%;
+}
+
+.o-image {
+background: url(../images/oimage.png) 50% 50% no-repeat;
+background-size: 100%;
+}
+
+.score {
+  font-size: 1.5em;
+}
 /*  ELEMENTS */
 
 h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 2em;
+}
+
 body {
   font-size: 10px;
 }
+
