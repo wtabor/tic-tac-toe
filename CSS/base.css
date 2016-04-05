@@ -4,6 +4,7 @@
   width: 31.2em;
   height: 31.2em;
   margin: 0 auto;
+
 }
 
 #xwins {
@@ -15,8 +16,29 @@
   font-size: 2em;
 }
 
-
 /*  CLASSES */
+
+.message {
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.currentPlayer {
+  font-size: 2em;
+  text-align: center;
+}
+
+.reset {
+  display: none;
+  text-align: center;
+  position: relative;
+  font-size: 2em;
+  background-color: #A3DB91;
+  margin:  0 auto;
+  padding: 0;
+  left: 132px;
+}
 
 .square {
   /*border: black solid 1px;*/
@@ -53,7 +75,7 @@
 }
 
 .score {
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   display: inline-flex;
   padding: 0 10px 10px 0;
@@ -69,10 +91,12 @@
   background-size: 95px 95px;
 }
 
-.score {
-  font-size: 1.5em;
+.circle-cursor {
+  cursor: url(../images/oimage.png) 25 25, pointer;
 }
-
+.cross-cursor {
+  cursor: url(../images/ximage.png) 25 25, pointer;
+}
 
 /*  ELEMENTS */
 
