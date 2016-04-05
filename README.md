@@ -19,9 +19,13 @@ A simiple Tic-Tac-Toe game written in JavaScript, HTML, and CSS following the [G
 * A cell should not be able to be replayed once marked
 * Add a reset button that will clear the contents of the board
 
+### Planning
+[Trello]
+
+[Wireframe]
+
 ### Functionality
 Game found here: [GH-Pages]
-
 * Define Variables
 * Listening for $gameSquares click
 * Click a square
@@ -57,6 +61,8 @@ MIT
    [dill]: <https://github.com/joemccann/dillinger>
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [jQuery]: <http://jquery.com>
+   [Trello]: <https://trello.com/b/EfO39usS>
+   [Wireframe]: <https://github.com/wtabor/tic-tac-toe/blob/gh-pages/images/tic-wireframe.png>
 
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
