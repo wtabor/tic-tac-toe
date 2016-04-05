@@ -8,6 +8,7 @@
 
 #xwins {
   font-size: 2em;
+  margin-right: 160px;
 }
 
 #owins {
@@ -18,11 +19,33 @@
 /*  CLASSES */
 
 .square {
-  border: black solid 1px;
+  /*border: black solid 1px;*/
   text-align: center;
   width: 10em;
   height: 10em;
   float: left;
+}
+
+[id*="0"],
+[id*="1"],
+[id*="2"],
+[id*="3"],
+[id*="4"],
+[id*="5"] {
+  border-bottom: 2px solid black;
+}
+
+[id*="0"],
+[id*="3"],
+[id*="6"],
+[id*="1"],
+[id*="4"],
+[id*="7"] {
+  border-right: 2px solid black;
+}
+
+.square:hover {
+  background-color: rgba(0, 0, 0, 0.02);
 }
 
 .row {
@@ -32,26 +55,34 @@
 .score {
   font-size: 2em;
   text-align: center;
-  display: flex;
+  display: inline-flex;
+  padding: 0 10px 10px 0;
 }
 
 .x-image {
   background: url(../images/ximage.png) 50% 50% no-repeat;
-  background-size: 100%;
+  background-size: 95px 95px;
 }
 
 .o-image {
-background: url(../images/oimage.png) 50% 50% no-repeat;
-background-size: 100%;
+  background: url(../images/oimage.png) 50% 50% no-repeat;
+  background-size: 95px 95px;
 }
 
 .score {
   font-size: 1.5em;
 }
+
+
 /*  ELEMENTS */
+
+* {
+  box-sizing: border-box;
+}
 
 h1 {
   text-align: center;
+  font-size: 4em;
 }
 
 h2 {
@@ -61,4 +92,3 @@ h2 {
 body {
   font-size: 10px;
 }
-

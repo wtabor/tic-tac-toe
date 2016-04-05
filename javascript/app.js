@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-
-
   // Variables
   var $gameSquares = $('.square');
   var moves = [0, 0, 0, 0, 0, 0, 0, 0, 0];
@@ -11,15 +9,13 @@ $(document).ready(function() {
 
   // Functions
 
-  //Remove or reset?
   function resetBoard() {
     if (xWinsCounter && oWinsCounter < 5) {
       moves = [0, 0, 0, 0, 0, 0, 0, 0, 0];
       counter = 0;
       $gameSquares.removeClass('x-image o-image');
       $(gameSquares).unbind('click');
-    }
-    else {
+    } else {
       alert('Series over!');
     }
   }
@@ -36,7 +32,6 @@ $(document).ready(function() {
     ]
     console.log(winConditions);
     for (i = 0; i < winConditions.length; i++) {
-      console.log(winConditions[i]);
       if (winConditions[i] === 3) {
         alert('X Wins!');
         xWinsCounter++;
@@ -57,19 +52,24 @@ $(document).ready(function() {
 
   //On Click
   $($gameSquares).on('click', function() {
-    var id = parseInt(this.id);
-    moves[this.id] = id;
-    if (counter % 2 == 0) {
-      moves[this.id] = +1;
-      $(this).addClass('x-image'); //Change cell to X image/img.png
-      console.log('x')
-    } else {
-      moves[this.id] = +10;
-      $(this).addClass('o-image'); //Change cell to O image/img.png
-      console.log('o');
-    }
-    counter++;
-    console.log(moves);
-    getWin();
+    console.log(moves[this.id]);
+    if (moves[this.id] === 0) {
+      var id = parseInt(this.id);
+      console.log(id);
+      moves[this.id] = id;
+      if (counter % 2 == 0) {
+        moves[this.id] = +1;
+        $(this).addClass('x-image'); //Change cell to X image/img.png
+
+      } else {
+        moves[this.id] = +10;
+        $(this).addClass('o-image'); //Change cell to O image/img.png
+
+      }
+      counter++;
+
+      getWin();
+    } else if (this.id !== 0)
+      alert("Select a different square");
   });
 });
