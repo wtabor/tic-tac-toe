@@ -62,7 +62,7 @@ MIT
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [jQuery]: <http://jquery.com>
    [Trello]: <https://trello.com/b/EfO39usS>
-   [Wireframe]: <https://github.com/wtabor/tic-tac-toe/blob/gh-pages/images/tic-wireframe.png>
+   [Wireframe]: https://github.com/wtabor/tic-tac-toe/blob/gh-pages/images/tic-wireframe.png
 
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
