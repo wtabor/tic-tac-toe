@@ -21,19 +21,20 @@ A simiple Tic-Tac-Toe game written in JavaScript, HTML, and CSS following the [G
 
 ### Functionality
 Game found here: [GH-Pages]
-1. Define Variables
-2. Listening for $gameSquares click
-3. Click a square
-4. Checks to see if square has been clicked
-5. If not, adds class image & changes moves array value based on X or O by 1 or 10
-6. Adds 1 to counter
-7. Checks getWin()
-8. getWin() checks winConditions to see if it's equal to 3 or 30
-9. If a win statement is satisfied, a win is tallied, a winning alert is called, and resetBoard() is called
-10. If the counter reacts 9 moves without a win condition, then a tie is called and resetBoard() runs
-11. resetBoard() checks for 5 wins from either player and resets the values for a new game
-12. If a player reaches five wins, the board click event will turn off, a winning alert will display and the board hides
-13. The reset button will display and if clicked, will location reload the page
+
+* Define Variables
+* Listening for $gameSquares click
+* Click a square
+* Checks to see if square has been clicked
+* If not, adds class image & changes moves array value based on X or O by 1 or 10
+* Adds 1 to counter
+* Checks getWin()
+* getWin() checks winConditions to see if it's equal to 3 or 30
+* If a win statement is satisfied, a win is tallied, a winning alert is called, and resetBoard() is called
+* If the counter reacts 9 moves without a win condition, then a tie is called and resetBoard() runs
+* resetBoard() checks for 5 wins from either player and resets the values for a new game
+* If a player reaches five wins, the board click event will turn off, a winning alert will display and the board hides
+* The reset button will display and if clicked, will location reload the page
 
 ### Todos
 
