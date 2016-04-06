@@ -23,6 +23,7 @@ A simiple Tic-Tac-Toe game written in JavaScript, HTML, and CSS following the [G
 [Trello]
 
 Wireframe:
+
 ![alt-text][Wireframe]
 
 ##### User Story:
