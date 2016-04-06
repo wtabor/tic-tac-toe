@@ -22,7 +22,9 @@ A simiple Tic-Tac-Toe game written in JavaScript, HTML, and CSS following the [G
 ### Planning
 [Trello]
 
-[Wireframe]
+Wireframe:
+![alt-text][Wireframe]
+
 ##### User Story:
 As a *User*
 
@@ -88,7 +90,7 @@ MIT
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [jQuery]: <http://jquery.com>
    [Trello]: <https://trello.com/b/EfO39usS>
-   [Wireframe]: https://github.com/wtabor/tic-tac-toe/blob/gh-pages/images/tic-wireframe.png
+   [Wireframe]: https://github.com/wtabor/tic-tac-toe/blob/gh-pages/images/tic-wireframe.png "Wireframe"
 
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
