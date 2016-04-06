@@ -22,7 +22,33 @@ A simiple Tic-Tac-Toe game written in JavaScript, HTML, and CSS following the [G
 ### Planning
 [Trello]
 
-![Wireframe] (images/tic-wireframe.png "wireframe")
+[Wireframe]
+##### User Story:
+As a *User*
+
+I want to *Play Tic-Tac-Toe against a friend*
+
+to *determine a winner from a best of five*
+
+As a *Player*
+
+I want to *Keep score over the course of multiple games*
+
+As a *Player*
+
+I want to *Tic-Tac-Toe to load and start*
+
+without *needing to hit multiple buttons*
+
+As a *User*
+
+I want the format *to look, feel, and act familar*
+
+As a *User*
+
+I want to *avoid misclicks*
+
+to *keep the game fair and functional*
 
 ### Functionality
 Game found here: [GH-Pages]
@@ -62,6 +88,7 @@ MIT
    [git-repo-url]: <https://github.com/joemccann/dillinger.git>
    [jQuery]: <http://jquery.com>
    [Trello]: <https://trello.com/b/EfO39usS>
+   [Wireframe]: <https://github.com/wtabor/tic-tac-toe/blob/gh-pages/images/tic-wireframe.png>
 
 
    [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
