@@ -26,7 +26,7 @@ Wireframe:
 
 ![alt-text][Wireframe]
 
-##### User Story:
+### User Stories
 As a *User*
 
 I want to *Play Tic-Tac-Toe against a friend*
